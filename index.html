@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+    <style type="text/css">
+        body {
+            background-image: url(to-do-list.jpg);
+        }
+        </style>
+</head>
+<body>
+    <div class="container">
+        <h1><big><u>To-Do List</u></big> <br> <small><h5>Add a new task to get started <br><big>&#9759</big></h5></small> </h1>
+        <form id="todo-form">
+            <input type="text" id="new-task" placeholder="Enter a new task..." required>
+            <button type="submit"><b>Add Task</b></button>
+        </form>
+        <ul id="todo-list"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
